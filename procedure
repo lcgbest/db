@@ -98,4 +98,5 @@ DECLARE
       DBMS_OUTPUT.PUT_LINE ('ZERO_DIVIDE' || SQLCODE || '-' || SQLERRM) ;        
     WHEN OTHERS THEN
       DBMS_OUTPUT.PUT_LINE ('OTHERS' || SQLCODE || '-' || SQLERRM) ;        
+   END;    
 END;    
